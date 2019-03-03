@@ -1,7 +1,7 @@
 # 61neuf.tn
 ENSI (National School of Computer Science) Design & Developpment Project
 
-## Used Technologies
+## Technologies
  - Java 8
  - Spring Boot
  - Spring Data-JPA, Spring Security, Spring MVC ...
@@ -9,4 +9,7 @@ ENSI (National School of Computer Science) Design & Developpment Project
  - MYSQL DataBase
 ## IDE
  - Eclipse STS
+## Team
+ - Fatma MILED
+ - Khouloud Ben Selem 
 ## [WIP] ...
