@@ -21,8 +21,19 @@ public class User {
 
     @ManyToMany
     private Set<Role> roles;
+    
+    @ManyToMany(mappedBy = "users")
+    private Set<Produit> produits_achetes;
 
-    public Long getId() {
+    public Set<Produit> getProduits_achetes() {
+		return produits_achetes;
+	}
+
+	public void setProduits_achetes(Set<Produit> produits_achetes) {
+		this.produits_achetes = produits_achetes;
+	}
+
+	public Long getId() {
         return id;
     }
 
